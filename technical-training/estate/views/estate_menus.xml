@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<odoo>
+<menuitem id="estate_menu_root" name="Propietat Immobiliària">
+    <menuitem id="estate_first_level_menu" name="Anuncis">
+        <menuitem id="estate_menu_action" action="estate_property_action"/>
+    </menuitem>
+    <menuitem id="configuration_menu" name="Configuració">
+        <menuitem id="tag_menu_action" action="tag_action"/>
+        <menuitem id="type_menu_action" action="type_action"/>
+    </menuitem>
+</menuitem>
+</odoo>
